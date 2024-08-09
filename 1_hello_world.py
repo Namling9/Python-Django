@@ -4,6 +4,7 @@
 git status 
 git add .
 git commit -m "This is comment"
+git push --set-upstream origin main
 git push
 
 programming language use compiler and scripting language use interpreter 

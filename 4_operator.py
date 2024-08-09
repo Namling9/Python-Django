@@ -67,3 +67,14 @@ a%=5
 print(a)
 
 print(8%2)
+
+# bitwise operator
+
+e = 5
+f = 10
+
+print(bin(e))
+print(bin(f))
+print(bin(e&f), e&f)
+print(bin(e|f), e|f)
+print(bin(e^f), e^f)
