@@ -51,7 +51,7 @@ else: print(f"{email} is not valid") '''
 
 # WAP to take user input mark percentage and find their division
 
-marks = float(input("Enter your marks: "))
+'''marks = float(input("Enter your marks: "))
 
 if marks >= 90 and marks <= 100:
     print("Grade 'A'")
@@ -65,9 +65,42 @@ elif marks >= 60 and marks < 80:
 elif marks >= 40 and marks < 60:
     print("Grade 'D' ")
 
-else: print("Grade 'E' ")
+else: print("Grade 'E' ") '''
     
 
 # WAP to make a calculator.
+'''
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+operator = input("Enter the operator: ")
+
+if operator == "+":
+    print("Sum of a and b : ", a+b)
+
+elif operator == "-":
+    print("Subtraction of a and b: ", a-b)
+    
+elif operator == "*":
+    print("Multiplication of a and b : ", a*b)
+
+elif operator == "/":
+    print("Division of a and b: ", a/b)
+
+elif operator == "%":
+    print("Remainder of a and b : ", a%b)
+
+else: print("Operator not available") '''
+
+# WAP to find input number is prime or composite.
+
+num = int(input("Enter the number: "))
+
+for i in range(2,num):
+    if num % i == 0:
+        print(num,"is a composite number")
+        break
 
 
+else: print(num,"is a prime number")
+    
