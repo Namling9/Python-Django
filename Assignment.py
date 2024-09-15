@@ -93,7 +93,7 @@ elif operator == "%":
 else: print("Operator not available") '''
 
 # WAP to find input number is prime or composite.
-
+'''
 num = int(input("Enter the number: "))
 
 for i in range(2,num):
@@ -102,5 +102,56 @@ for i in range(2,num):
         break
 
 
-else: print(num,"is a prime number")
+else: print(num,"is a prime number") 
+
+
+# odd and even number 
+'num = int(input("Enter the number: "))
+
+if(num%2==0):
+    print(f"{num} is an even number")
+
+else: print(f"{num} is an odd number") '''
+
+# Find lowest number among data = "822457313466823"
+'''
+data = "822457313466823"
+lowest_num = 9
+
+for i in data:
     
+    i = int(i)
+    if i < lowest_num:
+        lowest_num = i
+print("Lowest number : ",lowest_num) '''
+
+#WAP to make a calculator, and choices is like y/n, if user press 'y' then he can add, subtration. 
+#if user input 'n' then terminate calculating process
+'''
+a = int(input("Enter 1st number: "))
+b = int(input("Enter 2nd number: "))
+
+while True: 
+    user_in = input("Enter 'y' to calculate and Enter 'n' to terminate calculator : ")
+    
+    if(user_in == 'n'):
+        break
+    
+    else: 
+       operator = int(input("press '1' for addition and press '2' for subtraction : " ))
+                            
+       if(operator == 1):
+           print("sum: ",a+b)
+        
+       elif(operator == 2): 
+            print("subtration :", a-b) '''
+       
+
+# WAP to take 5 input number and find sum of all number.
+'''
+sum = 0
+for i in range(5):
+    n = int(input("Enter the number: "))
+    sum += n
+    
+print(sum) '''

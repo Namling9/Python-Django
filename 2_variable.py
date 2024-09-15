@@ -4,3 +4,7 @@
 data_hello_world = "Hello World"
 
 print(data_hello_world)
+
+name = "Namling"
+
+print(name)
